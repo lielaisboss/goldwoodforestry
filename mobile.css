@@ -1,0 +1,265 @@
+body {
+  background-image: url(./goldwoodimages/goldwood.lv\ mobile\ img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+  
+  height: 300vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dropbtn {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(40, 80, 40, 0.7),
+  rgba(40, 80, 40, 0.7), rgba(40, 80, 40, 0.7), rgba(40, 80, 40, 0.7), rgba(255, 255, 255, 0.1));
+  backdrop-filter: sepia(5);
+  opacity: 0,1;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 16px;
+  width: 100vw;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color: #f1f1f1;*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100vw;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: rgba(40, 80, 40, 0.7);
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.show {
+  display:block;
+  width: 100vw;
+}
+
+.parmums {
+  border: 0px solid white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  display: block;
+  margin-top: 10vh;
+  padding-bottom: 5%;
+  background-image: radial-gradient(rgb(255, 255, 255, 0.4), rgba(40, 80, 40, 0.8));
+  color: white;
+  text-indent: 20px;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parmums p {
+  text-align: center;
+  width: 80vw;
+}
+
+.mežizstrāde {
+  position: relative;
+  border: 0px solid white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: 20px;
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mežizstrāde p {
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.apzaļumošana {
+  border: 0px solid white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+margin-top: 20px;
+background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+display: block;
+}
+
+.apzaļumošana p {
+  color: white;
+  text-align: center;
+  text-indent: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.arborists {
+  border: 0px solid white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: 20px;
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.arborists p {
+  color: white;
+  text-align: center;
+  text-indent: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nekustamais {
+  border: 0px solid white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: 20px;
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.nekustamais p {
+  text-align: center;
+  text-indent: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nekustamais .virsraksts {
+  text-align: center;
+  text-indent: 0px;
+  font-size: x-large;
+}
+
+.frēzēšana {
+  border: 0px solid white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: 20px;
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.frēzēšana p {
+  text-align: center;
+  text-indent: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.kontakti {
+  border: 0px solid white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: 20px;
+  background-image: radial-gradient(rgb(255, 255, 255, 0.2), rgba(40, 80, 40, 0.8));
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+  .kontakti p {
+    text-align: center;
+    text-indent: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+
+
+
+  .footer {
+    position: relative;
+    display: block;
+    background-color: rgb(12, 54, 25);
+    margin-bottom: 0px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  
+  .footer p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: rgb(12, 54, 25);
+    padding: 1vh;
+    margin: 1vh;
+  }
+  
+  .rekvizīti {
+    display: block;
+    position: relative;
+    margin: 10vh;
+  
+  }
+  
+  .karte {
+    display: block;
+    position: relative;
+    margin: auto;
+  }
+
+  p {
+    color: white;
+  }
+  a {
+    color: white;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }

@@ -1,0 +1,104 @@
+
+
+
+
+.pamatne {
+  display: block;
+  background-color: darkslategray;
+  position: relative;
+  width: 75vw;
+  border: 0px solid white;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.paragrāfs {
+  display: block;
+  position: relative;
+  align-items: center;
+  color: white;
+  font-size: medium;
+}
+
+.ul {
+  background-color: rgb(255, 255, 255);
+  line-height: 30px;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+  border: 0px solid white;
+  border-radius: 20px;
+  list-style-type: none;
+  padding: 3vw;
+  margin-top: 3vw;
+}
+
+.li {
+  background-color: rgb(128, 130, 62);
+  border: 0px solid white;
+  border-radius: 20px;
+  color: white;
+  padding: 3vw;
+  text-indent: 20px;
+}
+
+a {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+
+
+
+
+
+
+
+.footer {
+  position: relative;
+  display: block;
+  background-color: rgb(12, 54, 25);
+  margin-bottom: 0px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.footer p {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  background-color: rgb(12, 54, 25);
+  padding: 1vh;
+  margin: 1vh;
+}
+
+.rekvizīti {
+  display: block;
+  position: relative;
+  margin: 10vh;
+
+}
+
+.karte {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+p {
+  color: white;
+}
+a {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}

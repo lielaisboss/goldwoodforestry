@@ -1,0 +1,167 @@
+.pamatne {
+  position: relative;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.virsraksts {
+  display: block;
+  position: relative;
+  width: auto;
+
+}
+
+h1, h2 {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  background-color: rgb(186, 184, 108);
+  border: 0px solid white;
+  border-radius: 20px;
+}
+
+h1 :hover {
+  color: rgb(58, 97, 44);
+  
+}
+
+a {
+  color: white;
+}
+
+p {
+  color: white;
+  background-color: rgb(128, 130, 62);
+  text-indent: 3vw;
+  line-height: 30px;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+  padding: 5vh;
+  border: 0px solid white;
+  border-radius: 20px;
+}
+
+.paragrāfs1, .paragrāfs3 {
+  margin-top: 40px;
+  font-size: medium;
+}
+
+.paragrāfs-bilde{
+  position: relative;
+  display: flex;
+}
+
+.paragrāfs-bilde img {
+  width: 40vw;
+  object-fit: scale-down;
+
+}
+
+.imgframe {
+  position: relative;
+  display: block;
+  background-color: darkslategray;
+  width: 80vw;
+  border: 0px solid white;
+  border-radius: 25px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.paradrāfs2 {
+  position: relative;
+  display: block;
+  width: 35vw;
+  font-size: medium;
+}
+
+.ul {
+  background-color: rgb(255, 255, 255);
+  line-height: 30px;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+  border: 0px solid white;
+  border-radius: 20px;
+  list-style-type: none;
+  padding: 3vw;
+  margin-top: 3vw;
+}
+
+.li {
+  background-color: rgb(128, 130, 62);
+  border: 0px solid white;
+  border-radius: 20px;
+  color: white;
+  padding: 3vw;
+}
+
+.paragrāfs3 {
+  display: block;
+  position: relative;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  font-size: medium;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+.footer {
+  position: relative;
+  display: block;
+  background-color: rgb(12, 54, 25);
+  margin-bottom: 0px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.footer p {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  background-color: rgb(12, 54, 25);
+  padding: 1vh;
+  margin: 1vh;
+}
+
+.rekvizīti {
+  display: block;
+  position: relative;
+  margin: 10vh;
+
+}
+
+.karte {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+p {
+  color: white;
+}
+a {
+  color: white;
+}
